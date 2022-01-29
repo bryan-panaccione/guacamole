@@ -13,6 +13,11 @@ catButtonClick.addEventListener('click', deleteCat)
 catButtonClick.addEventListener('click', addCat)
 
 //addcat function
+
+function playMeow(){
+    var sound = document.getElementById("soundOfCats")
+    sound.play()
+}
 function deleteCat(){
     document.querySelectorAll('.Meow').forEach(e => e.remove());
     //let catsOnScreen = document.querySelectorAll('.Meow')
@@ -35,6 +40,7 @@ function addCat(){
     randomCat.classList.add('Meow');
     randomCat.innerHTML = `<img src="images/catPic${catSelection}.png" alt="cat" width="100" class="catStart">`;
     catStarterDiv.appendChild(randomCat);
+    playMeow();
 }
 
 //<style> .catDiv {position: absolute; top: ${random1}; left: ${random2}; } </style>
