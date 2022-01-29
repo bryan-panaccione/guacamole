@@ -1,0 +1,274 @@
+.catStart{
+    position: absolute;
+    pointer-events: none;
+    color: deeppink;
+    z-index: 100;
+}
+
+
+#topBanner {
+  background-image: url("images/blueversCrop.png");
+  background-size: cover;
+    background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #d8d8d8;
+  padding: 11em 0;
+  text-align: center;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: -10vw;
+}
+body {
+  background: #C2E8E7;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  line-height: 1.75em;
+}
+a {
+  color: #629DD1;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  margin: 0 0 2em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #666f77;
+  font-weight: 300;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+    padding-bottom: 1em
+}
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+p {
+  color: #bbb;
+  position: relative;
+  margin: 0 0 1.5em 0;
+}
+/* Button */
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: #192024;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  border-radius: 6px;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-size: 0.9em;
+  height: 2.85em;
+  line-height: 2.85em;
+  padding: 0 1.75em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  text-indent: 0.25em;
+}
+.button:hover {
+  background-color: cornflowerblue;
+    text-decoration: none !important;
+}
+/* Wrapper */
+.wrapper {
+  padding: 6em 0 4em 0;
+}
+.wrapper.style1 {
+  background: #C8E7FF;
+  color: black;
+}
+/* Header */
+#header {
+  background: #fff;
+  color: #555f66;
+  cursor: default;
+  line-height: 3em;
+  height: 3em;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
+  opacity: 70%;
+  align-items: baseline;
+}
+#nav ul {
+  float: right;
+  padding-right: .5em;
+  line-height: 1em;
+  color: #666f77;
+  font-weight: 300;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+#nav li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+  padding: 0 .2em 0 .2em;
+    line-height: inherit
+}
+#nav li a {
+  color: #555f66;
+  text-decoration: none;
+    line-height: inherit;
+}
+#nav li a:hover {
+  color: #ECECEC;
+  text-decoration: underline;
+}
+#nav .button {
+  height: 3em;
+  padding: 0.5em;
+  position: relative;
+  top: -0.075em;
+  vertical-align: middle;
+}
+
+#pageTitle {
+  color: #8F0085;
+  font-weight: 500;
+  height: inherit;
+  left: .5em;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+
+  float: left;
+}
+#pageTitle a:hover{
+    color: cornflowerblue;
+}
+header h1 a {
+  align-content: center;
+  text-decoration: none;
+  font-size: .75em;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  letter-spacing: 2px;
+  color: #555f66;
+
+}
+
+/*footer */
+
+#footer {
+    padding: 3em;
+    background-color: white;
+    margin: -1em;     
+}
+
+#catApp{
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+}
+
+.catButton {
+    background-color: red;
+    line-height: 3em;
+    background-size: 6em 6em;
+    padding: 3em;
+    border-radius: 70%; 
+    color:black;
+}
+.catButton:hover {
+    background-color: darkred;
+    line-height: 3em;
+    background-size: 6em 6em;
+    padding: 3em;
+    border-radius: 50%; 
+    color:white;
+    transition-duration: .3s;
+}
+
+/*
+#header h1 a {
+  font-size: .75em;
+    text-decoration: none;
+    align-content: center;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+#header h1 a:hover {
+  font-size: 1.2em;
+  color: blue;
+  transition-duration: 1s;
+}
+#header nav > ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+    float: right;
+}
+#header nav > ul > li {
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 2em;
+  padding-left: 0;
+}
+#header nav > ul > li a {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  color: #555f66;
+  display: inline-block;
+  text-decoration: none;
+}
+#header nav > ul > li a:hover {
+  color: blue;
+  font-weight: bold;
+}
+#header nav > ul > li:first-child {
+  margin-left: 0;
+}
+#header nav > ul > li .button {
+  height: 2.25em;
+  line-height: 2.25em;
+  margin-bottom: 0;
+  padding: 0 1em;
+  position: relative;
+  top: -0.075em;
+  vertical-align: middle;
+}
+*/
